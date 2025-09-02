@@ -12,7 +12,7 @@ library(enrichplot)
 # ==================== Data Download and Preprocessing ====================
 
 # Set working directory and download dataset
-setwd("C:\\Users\\xieru\\Desktop\\姜小凡新一轮\\GEO")
+setwd("C:\\Users\\xieru\\Desktop\\小凡凡\\GEO")
 cat("Downloading GEO dataset...\n")
 gset <- getGEO("GSE256068", destdir = ".", getGPL = TRUE)
 
